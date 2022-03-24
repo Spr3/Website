@@ -1,0 +1,155 @@
+.slides-hidden { display : none; }
+
+div.Header {
+    border: 2px solid greenyellow;
+    background-color: black;
+    width: 101%;
+    height: 10%;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+p.WebPage_Name {
+    text-align: center;
+    font-size: x-large;
+    background-color: greenyellow;
+    width: 90%;
+    margin-left: 5%;
+}
+
+div.Items {
+    width: 103%;
+    margin-top: -9px;
+}
+
+div.ItemsForBar {
+    background-color: black;
+    width: 20%;
+    height: 2%;
+    float: left;
+    margin-left: -8px;
+    color: white;
+    font-size: large;
+}
+
+div.ItemsForBar:hover {
+    background-color: white;
+    color: black;
+}
+
+p.Item1OnBar {
+    float: left;
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    font-size: inherit;
+    width: 100%;
+}
+
+img {
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 2px lightblue;
+    position: relative;
+    transition: top ease 0.5s;
+    margin-left: 23%;
+    margin-top: 32%;
+    width: 120%;
+    height: 40%;
+}
+img:hover {
+    top: -10px;
+}
+
+.List {
+    float: left;
+    margin-top: 8%;
+    margin-left: 10%;
+    width: 26%;
+    font-size: x-large;
+    color:rgb(0, 30, 95);
+}
+
+.List2 {
+    float: left;
+    margin-top: 8%;
+    margin-left: 2%;
+    width: 26%;
+    font-size: x-large;
+    color:rgb(0, 30, 95);
+}
+
+div.information {
+    float: left;
+    margin-top: 8%;
+    margin-left: 20%;
+    width: 20%;
+    height: 40%;
+}
+p.textt {
+    text-align: left;
+    color: rgb(0, 59, 107);
+    font-size: x-large;
+}
+
+p.informational {
+    text-align: left;
+    margin-left: 10%;
+}
+
+p.IDES {
+    text-align: left;
+    margin-left: 20%;
+}
+
+div.options {
+    height: 2%;
+    width: 100%;
+    outline: 1px solid black;
+}
+
+img.EnjoymentS {
+    width: 130%;
+    height: 130%;
+    margin-top: 50%;
+    margin-left: 10%;
+    float: left;
+}
+
+img.EnjoymentV {
+    width: 400px;
+    height: 400px;
+    margin-top: -80%;
+    margin-left: 100%;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(51, 119, 57);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 4, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+div.Welcome {
+    float: left;
+    margin-top: 8%;
+    margin-left: 2%;
+    width: 26%;
+    font-size: x-large;
+    color:rgb(0, 30, 95);
+}

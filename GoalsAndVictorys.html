@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="webpage.css">
+    <header>
+        <div class="Items">
+            <div class="ItemsForBar">
+                <p class="Item1OnBar">Achievements</p>
+            </div>
+            <div class="ItemsForBar">
+                <p class="Item1OnBar">Goals</p>
+            </div>
+            <div class="ItemsForBar">
+                <p class="Item1OnBar">Contact</p>
+            </div>
+            <div class="ItemsForBar">
+                <p class="Item1OnBar">What Is Sapire Studing</p>
+            </div>
+            <div class="ItemsForBar">
+                <p class="Item1OnBar"><a href="MainPage.html">Home</a></p>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div text>  
+            <section>
+                <p style="float: left;" id="Photo"><img class="slides slides-hidden EnjoymentS" src="SongsLogos/ColossalConflict.png"></p>
+                <p style="float: left;" id="Photo"><img class="slides slides-hidden EnjoymentS" src="SongsLogos/Am i a Psycho.png"></p>
+                <p style="float: left;" id="Photo"><img class="slides slides-hidden EnjoymentS" src="SongsLogos/ChillBill.png"></p>
+                <p style="float: left;" id="Photo"><img class="slides slides-hidden EnjoymentS" src="SongsLogos/NotLikeYou.png"></p>
+            </section>
+        </div>
+        <div class="List">
+            <p><strong>Goals</strong></p>
+            <p> - <a href="https://www.google.com/maps/dir/34.041792,-118.2976576/20+W+34th+St,+New+York,+NY+10118/@37.5648748,-105.1335263,5z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89c259a90897ddaf:0x5fd95bb4ffa32d23!2m2!1d-73.9857248!2d40.7487658">Running From LA, Calafornia to New York City</a></p>
+            <p> - <a href="https://www.youtube.com/watch?v=mS0t6Imrhp4">Merkules & Hopsin - 'Not Like You'</a></p>
+            <p> - <a href="https://www.youtube.com/watch?v=Mxfy_0R2uzc">Merkules ft Hopsin & Tech N9ne - 'Bass'</a></p>
+            <p> - <a href="https://www.youtube.com/watch?v=J7IMwop3RHs">Rob $tone - Chill Bill ft. J.Davis & Spooks</a></p>
+            <p> - <a href="https://www.youtube.com/watch?v=mpW1wcHEMkA">Lil Darkie - COLOSSAL CONFLICT</a></p>
+            <p> - <a href="https://www.youtube.com/watch?v=d697eVYYOlc">Lil Darkie - GENOCIDE</a></p>
+            <p> - <a href="https://www.youtube.com/watch?v=krKZSRPeG8Y">Lil Darkie - POSTED IN THE DVRK</a></p>
+        </div>
+        <div class="List2">
+            <p><strong>Video Games</strong></p>
+            <p > - <a href="https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)">Crash Bandicoot</a></p>
+            <p> - <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)">Sonic The Hedgehog</a></p>
+            <p> - <a href="https://en.wikipedia.org/wiki/Street_Fighter_II">Street Fighter ll</a></p>
+            <p> - <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire">Pokémon Ruby and Sapphire</a></p>
+            <p> - <a href="https://en.wikipedia.org/wiki/Minecraft">Minecraft</a></p>
+        </div>
+        <div text>  
+            <section>
+                <p style="float: left;" id="Photo"><img class="sliders slides-hidden EnjoymentV" src="VideoGameLogos/Crash_Bandicoot_Cover.png"></p>
+                <p style="float: left;" id="Photo"><img class="sliders slides-hidden EnjoymentV" src="VideoGameLogos/Sonic.png"></p>
+            </section>
+        </div>
+    </body>
+    <script>
+        addEventListener("load",() => {
+        var index = 0;
+        const slides = document.querySelectorAll(".slides");
+        const classHide = "slides-hidden", count = slides.length;
+        nextSlide();
+        function nextSlide() {
+            slides[(index ++) % count].classList.add(classHide);
+            slides[index % count].classList.remove(classHide);
+            setTimeout(nextSlide, 2000);
+        }
+    });
+    addEventListener("load",() => {
+        var index = 0;
+        const slides = document.querySelectorAll(".sliders");
+        const classHide = "slides-hidden", count = slides.length;
+        nextSlide();
+        function nextSlide() {
+            slides[(index ++) % count].classList.add(classHide);
+            slides[index % count].classList.remove(classHide);
+            setTimeout(nextSlide, 2000);
+        }
+    });
+    </script>
+</html>
